@@ -1,0 +1,17 @@
+@import "./normalize.css";
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+	height: 100%;
+	user-select: none;
+	/* 禁止用户鼠标在页面上选中文字/图片等 */
+}
